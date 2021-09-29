@@ -16,9 +16,15 @@ Q5. After logging into the django administration site. I see two sets of models.
     and the other one is for our polls application. I see the Questions and Choices models. 
     There are buttons to add and modify these models.
 
-Q6.
+Q6. /polls/38/ You're looking at question 38.
+    /polls/38/results You're looking at the results of question 38.
+    /polls/38/vote You're voting on question 38.
 
-Q7. 
+    it gives error Page not found (404) when you don't give a number.
+    changing <int:question_id> to <str:question_id> will allow accepting strings
+
+Q7. Hardcoding url's makes it hard to maintain and update the app. Every small change in the
+    url schema means every hardcoded url needs to be changed.
 
 Q8.
 
