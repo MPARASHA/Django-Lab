@@ -26,7 +26,12 @@ Q6. /polls/38/ You're looking at question 38.
 Q7. Hardcoding url's makes it hard to maintain and update the app. Every small change in the
     url schema means every hardcoded url needs to be changed.
 
-Q8.
+Q8. Generic views help avoid writing repetitive code for common situations. They provide already implemented
+    set of views like Detail, List etc which are commonly used in creating web apps. 
+
+    You should use generic views as a boilerplate code to avoid writing repetitive code for similar views.
+    You should not use generic view if the view you need very specific and creating them by extending generic views is cumbersome.
 
 References:
     https://docs.djangoproject.com/en/3.2/topics/migrations/#:~:text=Migrations%20are%20Django's%20way%20of,problems%20you%20might%20run%20into.
+    https://docs.djangoproject.com/en/3.2/topics/class-based-views/generic-display/
